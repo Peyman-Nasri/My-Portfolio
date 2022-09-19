@@ -1,4 +1,4 @@
-let startTime = Math.floor(new Date('May 3, 2022 16:15:30') / 1000);
+let startTime = Math.floor(new Date('May 3, 2022 8:15:30') / 1000);
 function startTimeCounter() {
     let now = Math.floor(Date.now() / 1000); // get the time now
      let diff = now - startTime; // diff in seconds between now and start
